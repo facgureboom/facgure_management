@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include facgure_management *.css
+recursive-include facgure_management *.csv
+recursive-include facgure_management *.html
+recursive-include facgure_management *.ico
+recursive-include facgure_management *.js
+recursive-include facgure_management *.json
+recursive-include facgure_management *.md
+recursive-include facgure_management *.png
+recursive-include facgure_management *.py
+recursive-include facgure_management *.svg
+recursive-include facgure_management *.txt
+recursive-exclude facgure_management *.pyc
